@@ -1,0 +1,252 @@
+body { margin: 0; padding: 0; }
+
+@font-face {
+    font-family: Museo;
+    src: url(../font/Museo.otf);}
+
+#scroll {
+    position:fixed;
+    right:0.35%;
+    bottom:1.5%;
+    cursor:pointer;
+    width:4.25%;
+    height:8.75%;
+    background-image: url("../img/BackToTop.png");
+    background-size: cover;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;}
+
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;}
+
+#scroll:hover {
+    background-image: url("../img/BackToTopHover.png");
+    background-size: cover;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";}
+
+#blurred-image-container {
+    display:block;
+    padding:0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;}
+
+.img-src { 
+    position: absolute;
+    background:url(../img/Banner.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:125%;}
+
+.img-src.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.img-srcCheat { 
+    position: absolute;
+    background:url(../img/White.jpg) center center;
+    background-size: cover;
+    width:101.5%;
+    height:11%;
+    top:-5%;
+    z-index: 1}
+
+.img-srcCheat.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(2px) brightness(1);
+    -ms-filter: blur(2px) brightness(1);
+    -o-filter: blur(2px) brightness(1);
+    filter: blur(2px) brightness(1);}
+
+.Header{    
+    width:93.75%;height:8.25%;
+    position: fixed;
+    top:1.5%;
+    left:5.5%;
+    z-index: 1;
+    background-image: url("../img/Black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    border-radius: 5px;}
+
+.Nav{    
+    width:20.5%;height:86%;
+    position: fixed;
+    top:12%;
+    left:1%;
+    z-index: 1;
+    background-image: url("../img/Black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    border-radius: 5px;}
+
+.Card1{    
+    width:33%;height:100%;
+    top:110%;
+    left:26%;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../img/White.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    border-radius: 5px;}
+
+.Card{    
+    width:33%;height:100%;
+    top:110%;
+    left:26%;
+    position: absolute;
+    z-index: -1;
+    background-image: url("../img/Black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    border-radius: 5px;}
+
+.Logo{
+    width: 5%;
+    height: 110%;
+    margin-top:0.1%;
+    margin-left:-5.5%;}
+
+.Name{
+    font-family: Museo;
+    font-size:5.5vh;
+    color:white;position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%)}
+
+.Index{
+    position: absolute;
+    top: 50%;
+    left: 45.25%;
+    transform: translate(-50%, -50%);
+    font-family: Museo;
+    font-size:4vh;
+    color:white;}
+
+.Lebar{
+    text-align-last:left;
+    width: 110%;
+    border-radius: 5px;}
+
+.Gap{    
+    width:33%;height:100%;
+    top:164%;
+    left:25%;
+    position: absolute;
+    z-index: -1;}
+
+.LogoDes{
+    position: absolute;
+    margin-left: 68%;
+    margin-top:-13%;
+    width:40%;
+    height:48%;
+    pointer-events: none;
+    z-index: 4}
+
+.White{
+    height: 65%;
+    width:100%;
+    margin-top: 28.5%;
+    border-radius: 1px 1px 5px 5px;}
+
+.Ngecheat{
+    position: fixed;
+    background-image: url("../img/White.jpg")
+    color:white;}
+
+.reveal-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden}
+
+.reveal-wrapper:hover .reveal-top{
+    top:100%;}
+
+.reveal-content{}
+
+.reveal-top{
+    box-shadow: 0px 4px 8px 5px rgba(0,0,0,0.8);
+    background-image: url("../img/White.jpg");
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 5px;
+    transition: top 0.7s ease;}
+
+.WeAre{
+    text-align: left;
+    position: absolute;
+    top: 44%;
+    left: 28%;
+    transform: translate(-22%, -40%);
+    color: black;
+    font-family: Museo;
+    font-size: 3.8vh}
+
+.WhoWe{
+    position: absolute;
+    top: 31%;
+    left: 17%;
+    transform: translate(-20%, -20%);
+    color: black;
+    font-family: Museo;
+    font-size: 8.5vh}
+
+.NameDes{
+    position: absolute;
+    top: 160%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Museo;
+    font-size: 10vh;}
+
+.Definition{
+    text-align: left;
+    position: absolute;
+    top: 41%;
+    left: 25%;
+    transform: translate(-22%, -40%);
+    color: white;
+    font-family: Museo;
+    font-size: 4.1vh}
+
+.judul{
+    margin-left:5%;
+    color:white;
+    font-family: Museo;
+    font-size: 8vh}
+
+.judulDef{
+    color:white;
+    font-family: Museo;
+    font-size: 8vh}
+
