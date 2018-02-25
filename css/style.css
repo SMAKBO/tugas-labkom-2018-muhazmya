@@ -6,7 +6,7 @@ body { margin: 0; padding: 0; }
 
 #scroll {
     position:fixed;
-    right:0.35%;
+    right:0.9%;
     bottom:1.5%;
     cursor:pointer;
     width:4.25%;
@@ -91,7 +91,7 @@ body { margin: 0; padding: 0; }
 .Nav{    
     width:20.5%;height:86%;
     position: fixed;
-    top:12%;
+    top:11.5%;
     left:1%;
     z-index: 1;
     background-image: url("../img/Black.jpg");
@@ -103,7 +103,7 @@ body { margin: 0; padding: 0; }
 .Card1{    
     width:33%;height:100%;
     top:110%;
-    left:26%;
+    left:24.5%;
     position: absolute;
     z-index: -1;
     background-image: url("../img/White.jpg");
@@ -115,7 +115,7 @@ body { margin: 0; padding: 0; }
 .Card{    
     width:33%;height:100%;
     top:110%;
-    left:26%;
+    left:24.5%;
     position: absolute;
     z-index: -1;
     background-image: url("../img/Black.jpg");
@@ -141,7 +141,7 @@ body { margin: 0; padding: 0; }
 .Index{
     position: absolute;
     top: 50%;
-    left: 45.25%;
+    left: 42.25%;
     transform: translate(-50%, -50%);
     font-family: Museo;
     font-size:4vh;
@@ -149,12 +149,12 @@ body { margin: 0; padding: 0; }
 
 .Lebar{
     text-align-last:left;
-    width: 110%;
+    width: 118%;
     border-radius: 5px;}
 
 .Gap{    
     width:33%;height:100%;
-    top:164%;
+    top:9.5%;
     left:25%;
     position: absolute;
     z-index: -1;}
@@ -250,3 +250,52 @@ body { margin: 0; padding: 0; }
     font-family: Museo;
     font-size: 8vh}
 
+.MaUglassName{
+    margin-left:5%;
+    color: black;
+    font-family: Museo;
+    font-size: 8vh}
+
+.Pangkat{
+    margin-left:35%;
+    color: black;
+    font-family: Museo;
+    font-size: 3vh}
+
+.TempatPangkat{
+    margin-top: -1%
+}
+
+.MadeBy{
+    margin-left:5%;
+    color: black;
+    font-family: Museo;
+    font-size: 3vh}
+
+.TempatMadeBy{
+    margin-bottom: -2%
+}
+
+.Maker{
+    margin-top: 3%;       
+    pointer-events: none;}
+
+.Like{
+    font-size: 3vh;
+    font-family: Museo;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%)}
+}
+
+.Result{
+    font-size: 3vh;
+    font-family: Museo;
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%)}
+}
