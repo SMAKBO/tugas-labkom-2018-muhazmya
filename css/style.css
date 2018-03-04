@@ -4,6 +4,17 @@ body { margin: 0; padding: 0; }
     font-family: Museo;
     src: url(../font/Museo.otf);}
 
+body.Home a.Home,
+body.History a.History,
+body.Phys a.Phys,
+body.Chem a.Chem,
+body.Prep a.Prep,
+body.Ident a.Ident,
+body.Toxic a.Toxic,
+body.Uses a.Uses,
+body.About a.About{
+font-weight: bold;}
+
 #scroll {
     position:fixed;
     right:0.9%;
@@ -48,10 +59,10 @@ body { margin: 0; padding: 0; }
 
 .img-src { 
     position: absolute;
-    background:url(../img/Banner.gif) center center;
+    background:url(../img/Banners/Uses.gif) center center;
     background-size: cover;
     width:102%;
-    height:125%;}
+    height:128%;}
 
 .img-src.blurred-image {
     opacity:0;
@@ -60,7 +71,7 @@ body { margin: 0; padding: 0; }
     -o-filter: blur(20px) brightness(1);
     filter: blur(20px) brightness(1);}
 
-.img-srcCheat { 
+.AboveImg { 
     position: absolute;
     background:url(../img/White.jpg) center center;
     background-size: cover;
@@ -69,7 +80,7 @@ body { margin: 0; padding: 0; }
     top:-5%;
     z-index: 1}
 
-.img-srcCheat.blurred-image {
+.AboveImg.blurred-image {
     opacity:0;
     -webkit-filter: blur(2px) brightness(1);
     -ms-filter: blur(2px) brightness(1);
@@ -86,10 +97,10 @@ body { margin: 0; padding: 0; }
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
-    border-radius: 5px;}
+    border-radius: 7px;}
 
 .Nav{    
-    width:20.5%;height:86%;
+    width:17.5%;height:86%;
     position: fixed;
     top:11.5%;
     left:1%;
@@ -98,31 +109,47 @@ body { margin: 0; padding: 0; }
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
-    border-radius: 5px;}
+    border-radius: 7px;}
 
-.Card1{    
+.Index{
+    position: absolute;
+    top: 50%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    font-family: Museo;
+    font-size:4vh;
+    color:white;}
+
+.IndexWid{
+    position: relative;
+    -webkit-text-align-last:left;
+    text-align-last:left;
+    width: 101%;
+    border-radius: 7px;}
+
+.AnotherCard{    
     width:33%;height:100%;
     top:110%;
-    left:24.5%;
+    left:24.75%;
     position: absolute;
     z-index: -1;
     background-image: url("../img/White.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
-    border-radius: 5px;}
+    border-radius: 7px;}
 
 .Card{    
     width:33%;height:100%;
     top:110%;
-    left:24.5%;
+    left:24.75%;
     position: absolute;
     z-index: -1;
     background-image: url("../img/Black.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
-    border-radius: 5px;}
+    border-radius: 7px;}
 
 .Logo{
     width: 5%;
@@ -137,20 +164,6 @@ body { margin: 0; padding: 0; }
     top: 50%;
     left: 10%;
     transform: translate(-50%, -50%)}
-
-.Index{
-    position: absolute;
-    top: 50%;
-    left: 42.25%;
-    transform: translate(-50%, -50%);
-    font-family: Museo;
-    font-size:4vh;
-    color:white;}
-
-.Lebar{
-    text-align-last:left;
-    width: 118%;
-    border-radius: 5px;}
 
 .Gap{    
     width:33%;height:100%;
@@ -174,7 +187,7 @@ body { margin: 0; padding: 0; }
     margin-top: 28.5%;
     border-radius: 1px 1px 5px 5px;}
 
-.Ngecheat{
+.Above{
     position: fixed;
     background-image: url("../img/White.jpg")
     color:white;}
@@ -198,7 +211,7 @@ body { margin: 0; padding: 0; }
     position: absolute;
     top:0;
     left:0;
-    border-radius: 5px;
+    border-radius: 7px;
     transition: top 0.7s ease;}
 
 .WeAre{
@@ -239,16 +252,16 @@ body { margin: 0; padding: 0; }
     font-family: Museo;
     font-size: 4.1vh}
 
-.judul{
-    margin-left:5%;
+.TitleStruc{
+    margin-left:2%;
     color:white;
     font-family: Museo;
     font-size: 8vh}
 
-.judulDef{
+.TitleDes{
     color:white;
     font-family: Museo;
-    font-size: 8vh}
+    font-size: 8.3vh}
 
 .MaUglassName{
     margin-left:5%;
@@ -256,15 +269,14 @@ body { margin: 0; padding: 0; }
     font-family: Museo;
     font-size: 8vh}
 
-.Pangkat{
-    margin-left:35%;
+.Role{
+    margin-left:35.5%;
     color: black;
     font-family: Museo;
     font-size: 3vh}
 
-.TempatPangkat{
-    margin-top: -1%
-}
+.RolePlay{
+    margin-top: -1%}
 
 .MadeBy{
     margin-left:5%;
@@ -272,23 +284,22 @@ body { margin: 0; padding: 0; }
     font-family: Museo;
     font-size: 3vh}
 
-.TempatMadeBy{
-    margin-bottom: -2%
-}
+.MadeByPlace{
+    margin-bottom: -2%}
 
 .Maker{
     margin-top: 3%;       
     pointer-events: none;}
 
-.Like{
+.Love{
+    display: inline-block;
     font-size: 3vh;
     font-family: Museo;
     color:black;
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 70%;
     transform: translate(-50%, -50%)}
-}
 
 .Result{
     font-size: 3vh;
@@ -296,6 +307,79 @@ body { margin: 0; padding: 0; }
     color:black;
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 25%;
     transform: translate(-50%, -50%)}
+
+.Structure-1{
+    width:110%;
+    height:93%;
+    margin-left:-25%;
+    margin-top:-18%;}
+
+.Structure-2{
+    width:105%;
+    height:125%;
+    margin-left:-67%;
+    margin-top:9%;
+    position: absolute;}
+
+.Structure-3{
+    width:125%;
+    height:108%;
+    margin-left:-32%;
+    margin-top:-17%;}
+
+.StrucDesc-1{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-22%, -40%);
+    color: white;
+    font-family: Museo;
+    font-size: 5vh}
+
+.StrucDesc-2{
+    text-align: left;
+    position: absolute;
+    top: 72%;
+    right: -5%;
+    transform: translate(-22%, -40%);
+    color: white;
+    font-family: Museo;
+    font-size: 5vh}
+
+.mySlides {
+    display:none;}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer}
+
+.w3-badge {
+    height:9.5%;
+    width:0.5%;
+    margin-top: 10%;}
+
+.Social{
+    margin-left:88%;
+    margin-right:-88%;
+    margin-top:-1.5%;
 }
+
+.Icon{
+    width:3.1%; 
+    height:3.1%;}
+
+.LoveButton{
+    width: 99%;
+    height:99%;}
+
+.LoveThis{
+    margin-left:3%;
+    width:12%;
+}
+
+.LoveButton:hover{
+        background-image: url("../img/LoveHover.png");
+    }
+
