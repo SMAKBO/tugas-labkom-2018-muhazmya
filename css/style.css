@@ -13,8 +13,7 @@ body.Ident a.Ident,
 body.Toxic a.Toxic,
 body.Uses a.Uses,
 body.About a.About{
-font-weight: bold;
-color:lightgrey;}
+text-decoration:underline;}
 
 #scroll {
     position:fixed;
