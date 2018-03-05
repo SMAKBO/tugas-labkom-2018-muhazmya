@@ -1,9 +1,91 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
+<title>Chemical.ly&trade;</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="img/WebLogo.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--W3-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+jQuery(function(){
+   jQuery('#Klik').click();
+});
+</script>
 </head>
-<body>
-<h1>Bagimu Persib Jiwa Raga Kami</h1>
+
+<body class="Home">
+<a href="#" id="scroll" style="display: none;"></a>
+
+<div class="layout-foreground">
+
+    <div id="blurred-image-container">
+        <div class="img-src"></div>
+        <div class="img-src blurred-image"></div>
+    </div>
+        <div class="Above AboveImg blurred-image"></div>
+    <div class="Header"> 
+        <img src="img/Logo.png" class="Logo">
+        <font class="Name">Chemical.ly&thinsp;<font style="font-size:3.75vh">&trade;</font></font>
+    </div>
+
+    <div class="Nav"> 
+        <div class="Index">
+         <a href="index.html" class="w3-button w3-hover-white IndexWid Home">Home</a>
+    <br> <a href="HalamanLhivia.html" class="w3-button w3-hover-white IndexWid History">History</a> 
+    <br> <a href="HalamanTharisa.html" class="w3-button w3-hover-white IndexWid Phys">Physical Prop.</a> 
+    <br> <a href="HalamanDhea.html" class="w3-button w3-hover-white IndexWid Chem">Chemical Prop.</a> 
+    <br> <a href="HalamanPersibJuara.html" class="w3-button w3-hover-white IndexWid Prep">Preparation</a> 
+    <br> <a href="HalamanNesa.html" class="w3-button w3-hover-white IndexWid Ident">Identification</a> 
+    <br> <a href="HalamanHilmi.html" class="w3-button w3-hover-white IndexWid Toxic">Toxicity</a>
+    <br> <a href="HalamanAlcoholic.html" class="w3-button w3-hover-white IndexWid Uses">Uses</a>
+    <br>
+    <br> <a href="AboutUs.html" class="w3-button w3-hover-white IndexWid About">About Us</a>
+
+        </div>
+    </div>
+    <div>
+
+        <div class="AnotherCard" style="height:55%;width:69%">
+             <div class="Name" style="font-size:3vh;color:black;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
+            
+              Isi Yang..
+
+             </div>
+        </div>
+
+        <div class="AnotherCard" style="height:25%;width:69%;top:232%"">
+        <div class="Maker">
+          <div class="MadeByPlace">
+            <font class="MadeBy">Made By</font>
+          </div>    
+            <font class="MaUglassName">Azmy Arya Rizaldi</font>
+          <div class="RolePlay">
+            <font class="Role">Founder,Designer</font>
+          </div>
+        </div>
+        <div class="Social">
+            <a href="https://www.instagram.com/xeverse_/" target="_blank" style="text-decoration:none;">
+               <img src="img/Instagram.png" class="Icon">
+            </a>
+            <a href="https://www.facebook.com/azmi.arya.35" target="_blank" style="text-decoration:none;">
+               <img src="img/Facebook.png" class="Icon">
+            </a>
+            <a href="https://muhazmya.github.io/" target="_blank" style="text-decoration:none;">
+               <img src="img/GitHub.png" class="Icon">
+            </a>
+        </div>
+        <div class="Love" >
+         <div class="LoveThis" onclick="clickCounter()">
+           <img src="img/Love.png" onmouseover="this.src='img/LoveHover.png'" onmouseout="this.src='img/Love.png'" class="LoveButton" />
+         </div>            
+           <div class="Result" id="result"></div>
+        </div>
+        <div class="Gap"></div>
+    </div>
 </body>
-</html>
+</html> 
