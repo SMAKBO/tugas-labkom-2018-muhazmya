@@ -73,7 +73,7 @@ text-decoration:overline;}
 
 .HistoryImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/History.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
@@ -87,7 +87,7 @@ text-decoration:overline;}
 
 .PhysicalImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/Physical.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
@@ -101,7 +101,7 @@ text-decoration:overline;}
 
 .ChemicalImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/Chemical.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
@@ -113,14 +113,14 @@ text-decoration:overline;}
     -o-filter: blur(20px) brightness(1);
     filter: blur(20px) brightness(1);}
 
-.PreperationImg { 
+.PreparationImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/Preparation.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
 
-.PreperationImg.blurred-image {
+.PreparationImg.blurred-image {
     opacity:0;
     -webkit-filter: blur(20px) brightness(1);
     -ms-filter: blur(20px) brightness(1);
@@ -129,21 +129,7 @@ text-decoration:overline;}
 
 .IdentificationImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
-    background-size: cover;
-    width:102%;
-    height:128%;}
-
-.IdentificationImg.blurred-image {
-    opacity:0;
-    -webkit-filter: blur(20px) brightness(1);
-    -ms-filter: blur(20px) brightness(1);
-    -o-filter: blur(20px) brightness(1);
-    filter: blur(20px) brightness(1);}
-
-.IdentificationImg { 
-    position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/Identification.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
@@ -157,7 +143,7 @@ text-decoration:overline;}
 
 .ToxicityImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/Toxicity.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
@@ -171,7 +157,7 @@ text-decoration:overline;}
 
 .UsesImg { 
     position: absolute;
-    background:url(../img/Banners/Home.gif) center center;
+    background:url(../img/Banners/Uses.gif) center center;
     background-size: cover;
     width:102%;
     height:128%;}
