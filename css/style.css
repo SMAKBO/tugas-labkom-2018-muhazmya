@@ -71,6 +71,118 @@ text-decoration:overline;}
     -o-filter: blur(20px) brightness(1);
     filter: blur(20px) brightness(1);}
 
+.HistoryImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.HistoryImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.PhysicalImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.PhysicalImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.ChemicalImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.ChemicalImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.PreperationImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.PreperationImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.IdentificationImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.IdentificationImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.IdentificationImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.IdentificationImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.ToxicityImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.ToxicityImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
+.UsesImg { 
+    position: absolute;
+    background:url(../img/Banners/Home.gif) center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.UsesImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
 .AboveImg { 
     position: absolute;
     background:url(../img/White.jpg) center center;
