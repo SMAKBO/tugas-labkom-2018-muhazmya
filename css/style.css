@@ -169,6 +169,20 @@ text-decoration:overline;}
     -o-filter: blur(20px) brightness(1);
     filter: blur(20px) brightness(1);}
 
+.AboutImg { 
+    position: absolute;
+    background:url("../img/AboutUs.jpg") center center;
+    background-size: cover;
+    width:102%;
+    height:128%;}
+
+.AboutImg.blurred-image {
+    opacity:0;
+    -webkit-filter: blur(20px) brightness(1);
+    -ms-filter: blur(20px) brightness(1);
+    -o-filter: blur(20px) brightness(1);
+    filter: blur(20px) brightness(1);}
+
 .AboveImg { 
     position: absolute;
     background:url("../img/White.jpg") center center;
@@ -501,21 +515,66 @@ text-decoration:overline;}
     width: 22.4%;
     height: 22.4%;
     margin-left: -8.5%;
-    margin-bottom: -5%}
+    margin-bottom: -11%}
 
 .CresolContainer{
     width: 110%;
     position: relative;
     margin-top: 6%;
-    margin-left: 1%;}
+    margin-left: 2%;}
 
 .Hydroxyl{
     width: 22.4%;
     height: 22.4%;
     margin-left: -8.5%;
-    margin-top: 5%;}
+    margin-top: -1.5%;}
 
 .Us{
     width: 100vw;
-    height: 100vh;
-}
+    height: 100vh;}
+
+.IamRight{
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 86%;
+    float:right;
+    margin-top:4.5%;
+    margin-right:6%;
+    box-shadow: 0px 4px 8px 5px rgba(0,0,0,0.2);
+    border-radius: 7px;}
+
+.IamLeft{
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 86%;
+    float:left;
+    margin-left: 24%;
+    margin-top:4.5%;
+    box-shadow: 0px 4px 8px 5px rgba(0,0,0,0.2);
+    border-radius: 7px;}
+
+.grayscale {
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");}
+
+.TextRight{
+    font-family: Museo;
+    font-size: 12vh;
+    float: right;
+    margin-top:5%;
+    margin-right: 3%;
+    text-align-last: right;
+    z-index:1;
+    fill:url("../img/Black.jpg");}
+
+.TextLeft{
+    font-family: Museo;
+    font-size: 12vh;
+    float: right;
+    margin-top:5%;
+    margin-right: 7%;
+    text-align-last: left;
+    z-index:1 }
