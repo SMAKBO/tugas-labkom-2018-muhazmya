@@ -171,7 +171,7 @@ text-decoration:overline;}
 
 .AboutImg { 
     position: absolute;
-    background:url("../img/Banners/AboutUs.gif") center center;
+    background:url("../img/Banners/AboutUs.jpg") center center;
     background-size: cover;
     width:102%;
     height:128%;}
