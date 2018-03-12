@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+<title>Chemical.ly&trade;</title>
+<!--You Can Mimic The Result, But not The Creativity!-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="img/WebLogo.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<!--W3-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+</head>
+
+<body class="About">
+<a href="#" id="scroll" style="display: none;"></a>
+
+<div class="layout-foreground">
+
+    <div id="blurred-image-container">
+        <div class="AboutImg"></div>
+        <div class="AboutImg blurred-image"></div>
+    </div>
+        <div class="Above AboveImg blurred-image"></div>
+    <div class="Header"> 
+        <img src="img/Logo.png" class="Logo">
+        <font class="Name">Chemical.ly&thinsp;<font style="font-size:3.75vh">&trade;</font></font>
+    </div>
+
+    <div class="Nav"> 
+        <div class="Index">
+         <a href="index.html" class="w3-button w3-hover-white IndexWid Home">Home</a>
+    <br> <a href="HalamanLhivia.html" class="w3-button w3-hover-white IndexWid History">History</a> 
+    <br> <a href="HalamanTharisa.html" class="w3-button w3-hover-white IndexWid Phys">Physical Prop.</a> 
+    <br> <a href="HalamanDhea.html" class="w3-button w3-hover-white IndexWid Chem">Chemical Prop.</a> 
+    <br> <a href="HalamanPersibJuara.html" class="w3-button w3-hover-white IndexWid Prep">Preparation</a> 
+    <br> <a href="HalamanNesa.html" class="w3-button w3-hover-white IndexWid Ident">Identification</a> 
+    <br> <a href="HalamanHilmi.html" class="w3-button w3-hover-white IndexWid Toxic">Toxicity</a>
+    <br> <a href="HalamanAlcoholic.html" class="w3-button w3-hover-white IndexWid Uses">Uses</a>
+    <br>
+    <br> <a href="AboutUs.html" class="w3-button w3-hover-white IndexWid About">About Us</a>
+
+        </div>
+    </div>
+
+<div id="wrapper" style="pointer-events: none">
+
+  <div class="section Us">
+  </div>
+
+  <div class="section Us" >
+        <div class="IamRight grayscale" style="background: url(img/Awesomeness/Azmy.gif)">
+          <img src="img/Nickname/Azmy.png" class="Nick">
+        </div>
+        <font class="TextRight">M Azmy Arya 
+        <br>Rizaldi
+        <br><div style="font-size:5vh">Founder, Designer</div></font>
+  </div>
+
+  <div class="section Us">
+        <div class="IamLeft grayscale"  style="background: url(img/Awesomeness/Najwa.gif)">
+          <img src="img/Nickname/Najwa.png" class="Nick">
+        </div>
+        <font class="TextLeft" style="margin-right:12%">Najwa Azzahra 
+        <br>Siradj
+        <br><div style="font-size:5vh;margin-bottom:5%">Co.Founder, Writer</div></font> 
+  </div>
+
+  <div class="section Us">
+        <div class="IamRight grayscale" style="background: url(img/Awesomeness/Lhivia.gif)">
+          <img src="img/Nickname/Lhivia.png" class="Nick">
+        </div>
+        <font class="TextRight">Lhivia 
+        <br>Zhewanda
+        <br><div style="font-size:5vh;margin-bottom:5%">Designer</div></font>  
+  </div>
+
+  <div class="section Us">
+        <div class="IamLeft grayscale" style="background: url(img/Awesomeness/Shaddam.gif)">
+          <img src="img/Nickname/Shaddam.png" class="Nick">
+        </div>
+        <font class="TextLeft">Shaddam Ghazi 
+        <br>Aiman F
+        <br><div style="font-size:5vh;margin-bottom:5%">Writer</div></font>
+  </div>
+
+  <div class="section Us">
+        <div class="IamRight grayscale" style="background: url(img/Awesomeness/Tarisa.gif)">
+          <img src="img/Nickname/Tarisa.png" class="Nick">
+        </div>
+        <font class="TextRight">Tarisa Ardha 
+        <br>Haerani
+        <br><div style="font-size:5vh;margin-bottom:5%">Researcher</div></font>  
+  </div>
+
+  <div class="section Us">
+        <div class="IamLeft grayscale" style="background: url(img/Awesomeness/Dea.gif)">
+          <img src="img/Nickname/Dea.png" class="Nick">
+        </div>
+        <font class="TextLeft" style="margin-right:20%">Dea Ermalia 
+        <br>Aripin
+        <br><div style="font-size:5vh;margin-bottom:5%">Researcher</div></font>
+  </div>
+
+  <div class="section Us">
+        <div class="IamRight grayscale" style="background: url(img/Awesomeness/Nesa.gif)">
+        </div>
+        <font class="TextRight">Nesa 
+        <br>Salsabilla
+        <br><div style="font-size:5vh;margin-bottom:5%">Programmer</div></font>  
+  </div>
+
+  <div class="section Us">
+      <div class="IamLeft grayscale" style="background: url(img/Awesomeness/Hilmi.gif)">
+        <img src="img/Nickname/Hilmi.png" class="Nick">
+      </div>
+      <font class="TextLeft" style="margin-right:16%">Hilmi Syauqi 
+      <br>Fadlurahman
+      <br><div style="font-size:5vh;margin-bottom:5%">Programmer</div></font>
+  </div>
+</div>
+
+
+<script>
+$(document).ready(function(){
+  $('#wrapper').fullpage({        
+    scrollBar: true
+});
+});
+</script>
+</body>
+
+</html> 
